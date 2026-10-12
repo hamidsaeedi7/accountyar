@@ -1,0 +1,20 @@
+{
+  "name": "accountyar",
+  "visibility": "public",
+  "description": "Offline Android subscription reminders and encrypted account vault | مدیریت آفلاین اشتراک‌ها، یادآور شمسی و خزانه رمزگذاری‌شده اکانت‌ها",
+  "default_branch": "main",
+  "topics": [
+    "android",
+    "java",
+    "offline-first",
+    "subscription-tracker",
+    "reminders",
+    "persian",
+    "jalali-calendar",
+    "password-vault",
+    "aes-gcm",
+    "open-source"
+  ],
+  "homepage": "",
+  "license": "MIT"
+}

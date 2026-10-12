@@ -1,0 +1,20 @@
+name: Feature request / پیشنهاد ویژگی
+description: Suggest an improvement / پیشنهاد بهبود
+title: "[Feature] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and intended user / مسئله و کاربر هدف
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior / رفتار پیشنهادی
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Security, privacy and compatibility impact / اثر امنیت، حریم خصوصی و سازگاری

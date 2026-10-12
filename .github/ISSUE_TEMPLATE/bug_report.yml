@@ -1,0 +1,30 @@
+name: Bug report / گزارش باگ
+description: Report a reproducible problem using test data / گزارش مشکل با داده آزمایشی
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Do not attach real credentials, vaults, backups or signing keys. Security issues follow SECURITY.md. / رمز، خزانه، پشتیبان یا کلید واقعی نفرستید."
+  - type: input
+    id: environment
+    attributes:
+      label: App version, Android version and device / نسخه اپ، اندروید و گوشی
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps / مراحل بازتولید
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual behavior / رفتار مورد انتظار و واقعی
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Redacted evidence / شواهد پاکسازی‌شده
+      description: Use synthetic account data only / فقط داده اکانت ساختگی
